@@ -1,0 +1,70 @@
+.img-header {
+  max-width : 90%;
+}
+
+.nopadding {
+  padding-top    : 0px;
+  padding-bottom : 0px;
+}
+
+.padtopbot {
+  padding-top    : 50px;
+  padding-bottom : 50px;
+}
+
+section.explain {
+  background : #FFFFFF;
+}
+
+section.explain h4:after {
+  content     : '\f061';
+  position    : relative;
+  left        : 8px;
+  font-family : fontAwesome;
+  font-size   : 10px;
+  /* top: 3px; */
+}
+
+section.dev {
+  padding-top : 10px;
+}
+
+section.dev h6 {
+  padding-bottom : 20px;
+}
+
+.small-btn {
+  padding : 15px 15px;
+}
+
+.card {
+  padding-top    : 30px;
+  padding-bottom : 30px;
+}
+
+section.features p {
+  padding-bottom: 20px;
+}
+
+@media (min-width: 400px) {
+  .crop-img {
+    position : absolute;
+    top      : -20px;
+    left     : -60px;
+    width    : 150px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 399px){
+  .crop-img {
+    position : absolute;
+    top      : -20px;
+    left     : -80px;
+    width    : 150px;
+  }
+}
+
+.btn-doc:hover {
+  color      : gray;
+  box-shadow : 0 0px 0px rgba(51, 105, 231, 0.4);
+}

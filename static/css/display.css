@@ -1,0 +1,30 @@
+.nopadding {
+  padding-top    : 0px;
+  padding-bottom : 0px;
+}
+
+.padtopbot {
+  padding-top    : 50px;
+  padding-bottom : 50px;
+}
+
+section.explain {
+  background : #FFFFFF;
+}
+
+section.explain h4:after {
+  content     : '\f061';
+  position    : relative;
+  left        : 8px;
+  font-family : fontAwesome;
+  font-size   : 10px;
+  /* top: 3px; */
+}
+
+section.features p {
+  margin-bottom : 0px !important;
+}
+
+.list-group-item {
+  border : none;
+}

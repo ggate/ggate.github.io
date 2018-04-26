@@ -1,0 +1,14 @@
+h1{
+  font-size : 35px;
+}
+
+li {
+  color: #5E5E5E;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+section.legals{
+  padding-top: 100px;
+  background-color: #f8faff;
+}
