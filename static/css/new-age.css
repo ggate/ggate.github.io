@@ -10,7 +10,7 @@ body {
 
 h1 {
   color          : #5E5E5E;
-  font-size      : 36px;
+  font-size      : 40px;
   font-weight    : 400;
   line-height    : 48px;
   letter-spacing : .035em;
@@ -165,10 +165,24 @@ hr.light {
 }
 
 
-.explain_noskew {
-  background : #32325D;
-
+.background_blue {
+  background : #3369e7;
 }
+
+.background_white {
+  background: white;
+}
+
+header.masthead h2 {
+  font-size: 26px;
+}
+
+header.masthead h3 {
+  font-size: 17px;
+  text-transform : none;
+  font-weight: 100;
+}
+
 section.explain h4:after {
   content     : '\f061';
   position    : relative;
@@ -185,6 +199,24 @@ section.features h5:after {
   font-family : fontAwesome;
   font-size   : 10px;
   /* top: 3px; */
+}
+
+section.features h5 {
+  margin-top: 0px;
+}
+
+section.features h6 {
+  margin-bottom: 0px;
+}
+
+section.features a{
+  font-size: 14px;
+  font-weight: 600;
+  color: #3a73d4;
+}
+
+section.features {
+  padding-bottom: 30px;
 }
 
 .vcenter {
@@ -236,9 +268,12 @@ section {
   margin-left : -10px;
 }
 
+
 .banner {
+  z-index: -1;
   position  : absolute;
-  top       : 250px;
+  /* top       : 1600px; */
+  /* left       : 100px; */
   max-width : 100%;
   height    : auto;
 }
@@ -267,6 +302,24 @@ header.masthead {
   width          : 100%;
   padding-bottom : 50px;
   background : #f8faff;
+  /* background: red; */
+}
+
+#brands{
+  background : #f8faff;
+}
+
+div.masthead_bg {
+  z-index          : -1;
+  position         : absolute;
+  right            : 0;
+  left             : 0;
+  width            : 100%;
+  height           : 150%;
+  background       : #FFFFFF;
+  transform        : skewY(-9deg);
+  transform-origin : top left;
+  /* top: 0; bottom: 0; */
 }
 
 div.products_bg {
@@ -310,7 +363,7 @@ div.explain_bg {
 
 section.features {
   /* z-index: 1; */
-  background: white
+  /* background: white */
 }
 
 section.features .device-container,
@@ -344,6 +397,15 @@ section.features .feature-item i {
 section.features .feature-item img {
   height : 100px;
 }
+
+section.features .big img {
+  height : auto;
+}
+
+section.features h1{
+  font-size: 50px;
+}
+
 
 .cta {
   padding-top    : 100px;
@@ -425,10 +487,10 @@ section.features p {
 
 @media (min-width: 768px) {
   .crop-img-int {
-    /* position : absolute;
-    top      : 0px;
-    left     : -200px; */
-    width    : 122%;
+    /* position : absolute; */
+    /* top      : -120px; */
+    /* left     : -20px; */
+    width    : 700px;
     /* overflow: hidden; */
   }
 }
@@ -648,7 +710,7 @@ img {
   padding          : 0 32px;
   color            : #fff;
   border           : none;
-  border-radius    : 50px;
+  border-radius    : 10px;
   background-image : linear-gradient(
                        80deg,
                        #00aeff,
@@ -669,7 +731,7 @@ img {
   padding          : 0 32px;
   color            : #fff;
   border           : none;
-  border-radius    : 50px;
+  border-radius    : 10px;
   background-image : linear-gradient(
                        284deg,
                        #1cc7d0,
@@ -690,7 +752,7 @@ img {
   padding          : 0 32px;
   color            : #fff;
   border           : none;
-  border-radius    : 50px;
+  border-radius    : 10px;
   background-image : linear-gradient(
                        284deg,
                        #FF5F6D,

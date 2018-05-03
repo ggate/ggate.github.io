@@ -46,6 +46,29 @@ section.features p {
   padding-bottom: 20px;
 }
 
+section.features a{
+  font-size: 14px;
+  font-weight: 200;
+  color: #3a73d4;
+}
+
+@media (min-width: 768px) {
+  .crop-img-int-developer {
+    /* position : absolute; */
+    /* top      : -120px; */
+    /* left     : -20px; */
+    width    : 600px;
+    /* overflow: hidden; */
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+  .crop-img-int-developer {
+    width    : 100%;
+    /* overflow: hidden; */
+  }
+}
+
 @media (min-width: 400px) {
   .crop-img {
     position : absolute;
